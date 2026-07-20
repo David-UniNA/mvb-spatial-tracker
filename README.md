@@ -25,13 +25,13 @@ This repository contains the official Python implementation for automated segmen
 5D Hyperstack (T, Z, C, Y, X)
        │
        ▼
-[ mvb_segmentation.py ] ──► Dual-pass Cellpose-SAM & Morphological Filters
+[ MVB_segmentation.py ] ──► Dual-pass Cellpose-SAM & Morphological Filters
        │
        ▼
 Segmented Stack (*_GEOMETRIC_NUC.tif)
        │
        ▼
-[ mvb_tracker.py ]      ──► LAP Linking (trackpy) & Spatial Coordinate Analysis
+[ MVB_tracker.py ]      ──► LAP Linking (trackpy) & Spatial Coordinate Analysis
        │
        ▼
 Final Output (*_FINAL_ANALYSIS.csv & High-Res PNG Figures)
