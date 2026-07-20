@@ -24,7 +24,7 @@ Run `mvb_tracker.py` on the output from Step 1 to perform tracking and compute s
 ```bash
 python mvb_tracker.py --input /path/to/hyperstack_GEOMETRIC_NUC.tif --pixel_size 0.0962 --frame_rate 30.0
 ```
-
+---
 ## Experimental Methods Context
 The parameters provided in this repository default to standard neuroblastoma live-cell imaging setups:
 
