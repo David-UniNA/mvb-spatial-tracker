@@ -1,9 +1,12 @@
-Step 1: Segmentation & Mask Extraction
-Run MVB_segmentation.py to convert raw 5D confocal hyperstacks into segmented multi-channel mask stacks.
+## Usage Guide
 
+### Step 1: Segmentation & Mask Extraction
+Run `mvb_segmentation.py` to convert raw 5D confocal hyperstacks into segmented multi-channel mask stacks.
+
+```bash
 python mvb_segmentation.py --input /path/to/hyperstack.tif --cell_dia 180 --mvb_dia 15
 
-If --input is omitted, an interactive file dialog will pop up automatically.
+Note: If --input is omitted, an interactive file dialog will pop up automatically.
 
 Outputs:
 *_GEOMETRIC_NUC.tif: Multi-channel TCYX hyperstack containing:
