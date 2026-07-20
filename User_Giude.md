@@ -17,7 +17,7 @@ Channel 1: Filtered MVB / Lysosome Mask
 
 Channel 2: Nuclear Mask Region
 
-
+---
 
 ### Step 2: Trajectory Linking & Spatial Analysis
 Run `mvb_tracker.py` on the output from Step 1 to perform tracking and compute spatial metrics.
